@@ -2,12 +2,13 @@
 Practicing different types of Sorting Techniques in C language. 
 
 A must read excerpt from <strong>Cormen's Algorithms</strong> Book-
-"For a concrete example, let us pit a faster computer (computer A) running insertion sort against a slower computer (computer B) running merge sort. They each
+<p>"For a concrete example, let us pit a faster computer (computer A) running insertion sort against a slower computer (computer B) running merge sort. They each
 must sort an array of 10 million numbers. (Although 10 million numbers might seem like a lot, if the numbers are eight-byte integers, then the input occupies
 about 80 megabytes, which fits in the memory of even an inexpensive laptop computer many times over.) Suppose that computer A executes 10 billion instructions
 per second (faster than any single sequential computer at the time of this writing) and computer B executes only 10 million instructions per second, so that computer A is 1000 times faster than computer B in raw computing power. To make the difference even more dramatic, suppose that the world’s craftiest programmer
 codes insertion sort in machine language for computer A, and the resulting code requires 2n2 instructions to sort n numbers. Suppose further that just an average
-programmer implements merge sort, using a high-level language with an inefficient compiler, with the resulting code taking 50n lg n instructions. To sort 10 million
+programmer implements merge sort, using a high-level language with an inefficient compiler, with the resulting code taking 50n lg n instructions.</p>
+To sort 10 million
 numbers, computer A takes 
 (2.(10)^7)/2 instructions / (10^10 instructions/second) = 20,000 seconds (more than 5.5 hours)
 
