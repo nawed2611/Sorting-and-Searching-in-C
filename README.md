@@ -22,4 +22,4 @@ sort.
 
 Have a look here on how different algorithms work and their time complexities:
 
-https://www.youtube.com/watch?v=ZZuD6iUe3Pc
+[![Alt text for your video](https://img.youtube.com/vi/ZZuD6iUe3Pc/0.jpg)](https://www.youtube.com/watch?v=ZZuD6iUe3Pc)
