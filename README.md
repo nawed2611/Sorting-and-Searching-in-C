@@ -1,5 +1,5 @@
 # Sorting-in-C
-Practicing different types of Sorting Techniques in C language. 
+Practicing different types of Sorting Techniques in C/C++ language. 
 
 <p>A must read excerpt from <strong>Cormen's Algorithms</strong> Book-</p>
 <i><p>"For a concrete example, let us pit a faster computer (computer A) running insertion sort against a slower computer (computer B) running merge sort. They each
