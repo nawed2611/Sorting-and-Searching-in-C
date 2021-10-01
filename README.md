@@ -1,7 +1,7 @@
 # Sorting-in-C
 Practicing different types of Sorting Techniques in C language. 
 
-A must read excerpt from Cormen's Algorithms Book-
+A must read excerpt from <strong>Cormen's Algorithms</strong> Book-
 "For a concrete example, let us pit a faster computer (computer A) running insertion sort against a slower computer (computer B) running merge sort. They each
 must sort an array of 10 million numbers. (Although 10 million numbers might seem like a lot, if the numbers are eight-byte integers, then the input occupies
 about 80 megabytes, which fits in the memory of even an inexpensive laptop computer many times over.) Suppose that computer A executes 10 billion instructions
