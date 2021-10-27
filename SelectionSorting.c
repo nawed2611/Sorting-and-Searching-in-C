@@ -16,7 +16,18 @@ int main()
     SelSort(arr, size);
     return 0;
 }
-void SelSort(int arr[50], int size)
+void SelSort(int arr[50], int n)
 {
-    
+    int i, j, min, swap;
+    for (i = 0; i < n-1; i++)
+    {
+        min = i;
+        for (j = i+1; j < n; j++)
+          if (arr[j] < arr[min])
+            min = j;
+        
+        swap = arr[j];
+        arr[j] = arr[j + 1];
+        arr[j + 1] = swap;
+    }
 }
