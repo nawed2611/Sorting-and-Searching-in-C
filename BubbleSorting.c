@@ -1,34 +1,40 @@
 #include <stdio.h>
 
+void BubSort(int arr[50], int n);
+
 int main()
 {
-    int n, c, d, swap;
-
-    printf("Enter number of elements:\n");
+    system("cls");
+    int arr[50], n;
+    printf("Enter the desired array size(upto 50):\n");
     scanf("%d", &n);
-    int array[n];
-    printf("Enter the array with %d numbers:\n", n);
 
-    for (c = 0; c < n; c++)
-        scanf("%d", &array[c]);
-
-    for (c = 0; c < n - 1; c++)
+    printf("Enter the array:\n", n);
+    for (int i = 0; i < n; i++)
     {
-        for (d = 0; d < n - c - 1; d++)
+        scanf("%d", &arr[i]);
+    }
+    BubSort(arr, n);
+
+    printf("Sorted Array:\n");
+    for (int i = 0; i < n; i++)
+        printf("%d\t", arr[i]);
+
+    return 0;
+}
+void BubSort(int arr[50], int n)
+{
+    int swap;
+    for (int i = 0; i < n - 1; i++)
+    {
+        for (int j = 0; j < n - i - 1; j++)
         {
-            if (array[d] > array[d + 1]) 
+            if (arr[j] > arr[j + 1])
             {
-                swap = array[d];
-                array[d] = array[d + 1];
-                array[d + 1] = swap;
+                swap = arr[j];
+                arr[j] = arr[j + 1];
+                arr[j + 1] = swap;
             }
         }
     }
-
-    printf("Bubble Sorted List:\n");
-
-    for (c = 0; c < n; c++)
-        printf("%d\n", array[c]);
-
-    return 0;
 }

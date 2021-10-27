@@ -1,12 +1,11 @@
 #include <stdio.h>
-#include <conio.h>
 #include <limits.h>
-int InsSort(int ar[50], int size);
+void InsSort(int ar[50], int size);
 int main()
 {
     system("cls");
     int arr[50], item, n, index, i;
-    printf("\nEnter desired array size (upto 50): ");
+    printf("\nEnter desired array size (upto 50):\n");
     scanf("%d", &n);
     printf("\nEnter array elements:\n");
     for (i = 1; i <= n; i++)
@@ -22,7 +21,7 @@ int main()
     getch();
     return 0;
 }
-int InsSort(int arr[50], int size)
+void InsSort(int arr[50], int size)
 {
     int temp, j;
     arr[0] = INT_MIN;
