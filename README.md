@@ -1,4 +1,4 @@
-# Sorting-in-C/C++
+## Sorting and Searching in C
 Practicing different types of Sorting Techniques in C/C++ language. 
 
 <p>A must read excerpt from <strong>Cormen's Algorithms</strong> Book-</p>
