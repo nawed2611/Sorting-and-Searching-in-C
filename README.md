@@ -9,7 +9,7 @@ per second (faster than any single sequential computer at the time of this writi
 codes insertion sort in machine language for computer A, and the resulting code requires 2n2 instructions to sort n numbers. Suppose further that just an average
 programmer implements merge sort, using a high-level language with an inefficient compiler, with the resulting code taking 50n lg n instructions.</p>
   
-`To sort 10 million`<br><br>
+`To sort 10 million`
 `numbers, computer A takes`<br>
 `(2.(10)^7)/2 instructions / (10^10 instructions/second) = 20,000 seconds (more than 5.5 hours)`<br><br>
 
