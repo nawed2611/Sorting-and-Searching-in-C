@@ -1,6 +1,4 @@
-## Welcome to GitHub Pages
-
-### Practicing different types of Sorting Techniques in C/C++ language.
+## Different types of Sorting Techniques in C
 
 A must read excerpt from Cormen's Algorithms Book-
 
